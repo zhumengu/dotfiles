@@ -13,7 +13,7 @@ nmap <silent><leader>rr :e!<cr>
         nmap <silent>,p :bp<cr>
         nmap <silent>,d :bd<cr>
                 nmap ,b :ls<cr>:b<space>
-          nmap ,m :oldfiles<cr>:e #<
+                nmap ,m :oldfiles<cr>:e #<
                nmap ,sr :%s/\<<C-r><C-w>\>//g<left><left>
 nmap <silent><leader>gg :Git push origin master<cr>
 nmap <silent><leader>gs :Git<cr>

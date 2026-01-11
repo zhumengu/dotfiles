@@ -7,6 +7,7 @@ let g:vim_markdown_folding_disabled = 1
               let g:rooter_patterns = ['.git', '_darcs', '.hg', '.bzr', '.svn', 'Makefile', 'package.json', '.editorconfig']
           let g:rooter_silent_chdir = 1
      let g:indent_guides_guide_size = 1
+               let g:switch_mapping = "-"
 
 Plug 'airblade/vim-rooter'
 Plug 'godlygeek/tabular'
@@ -29,5 +30,5 @@ if executable("npm")
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 endif
 
-call utils#loaddirectory('~/.vim/plug_opts.d')
+runtime! plug_opts.d/*.vim
 
