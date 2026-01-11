@@ -1,6 +1,6 @@
 set nocompatible
 
-packadd editorconfig
+"packadd editorconfig
 
 let s:plug_autoload = expand('~/.vim/autoload/plug.vim')
 let s:plugged_dir = expand('~/.vim/plugged')

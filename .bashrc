@@ -4,3 +4,4 @@ export LANG
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 [ -f ~/.zluarc.sh ] && . ~/.zluarc.sh
 [ -f ~/.fzfrc.sh ] && . ~/.fzfrc.sh
+[ -f ~/.arch.sh ] && . ~/.arch.sh

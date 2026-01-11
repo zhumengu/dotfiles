@@ -31,4 +31,3 @@ if executable("npm")
 endif
 
 runtime! plug_opts.d/*.vim
-

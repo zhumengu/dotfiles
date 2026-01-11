@@ -31,7 +31,7 @@ set hlsearch
 set t_Co=256
 set path+=**
 set background=dark
-set completeopt+=popup
+"set completeopt+=popup
 hi Normal ctermbg=NONE
 set list
 if has('multi_byte') && &encoding ==# 'utf-8'
