@@ -29,5 +29,4 @@ if executable("npm")
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 endif
 
-call utils#loaddirectory('~/.vim/plug_opts.d')
-
+runtime! plug_opts.d/*.vim
